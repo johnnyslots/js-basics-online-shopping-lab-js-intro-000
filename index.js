@@ -73,19 +73,6 @@ function removeFromCart(item) {
   return cart;
 };
 
-// function removeFromCart(item) {
-//   for(let i = 0; i < cart.length; i++){
-//     if(cart.hasOwnProperty(Object.keys(cart)[i]) === false){
-//       console.log("That item is not in your cart.")
-//       return cart
-//     } else {
-//       var itemName = Object.keys(cart[i])[0];
-//       delete cart.itemName;
-//       return cart
-//     }
-//   }
-// };
-
 function placeOrder(cardNumber) {
   // write your code here
 }
